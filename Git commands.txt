@@ -8,5 +8,15 @@ GIT BASICS
   git log 
   git diff
   
+GIT LOG
+git log  --oneline
+git log  -<limit>
+git log -p
+git log --stat
+git log --author=”<pattern>”
+git log --grep=”<pattern>”
+git log <since>..<until>
+git log -- <file>
+git log --graph --decorate
 
   
