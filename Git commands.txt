@@ -18,5 +18,19 @@ git log --grep=”<pattern>”
 git log <since>..<until>
 git log -- <file>
 git log --graph --decorate
+ 
+GIT DIFF
+git diff HEAD
+git diff --cached
+git reset
+git reset --hard
+git reset <commit>
+git reset --hard <commit>
 
-  
+GIT REBASE
+git pull --rebase <remote>
+
+GIT PUSH
+git push <remote> --force
+git push <remote> --all
+git push <remote> --tags
